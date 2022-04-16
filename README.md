@@ -1,6 +1,24 @@
-- [`TASK_1`](./TASK_1) - Код задачи 1
-
-- [`.png file`](./TASK_1/Untitled%20Diagram-Page-5.drawio.png) - Блок-схема задачи 1
-- [`TASK_2`](./TASK_1) - Код задачи 2
-
-- [`.png file`](./TASK_2/CS_Task-Page-2.drawio.png) - Блок-схема задачи 2
+- [`TEXT`](./TASK_1/Task_data.md) - Текст задачи 1
+- [`CODE`](./TASK_1/Program.cs) - Код задачи 1
+- [`CHART`](./TASK_1/CHART.png) - Блок-схема задачи 1
+---
+- [`TEXT`](./TASK_2/Task_data.md) - Текст задачи 2
+- [`CODE`](./TASK_2/Program.cs) - Код задачи 2
+- [`CHART`](./TASK_2/CHART.png) - Блок-схема задачи 2
+---
+- [`TEXT`](./TASK_3/Task_data.md) - Текст задачи 3
+- [`CODE`](./TASK_3/Program.cs) - Код задачи 3
+- [`CHART`](./TASK_3/CHART.png) - Блок-схема задачи 3
+---
+- [`TEXT`](./TASK_4/Task_data.md) - Текст задачи 4
+- [`CODE`](./TASK_4/Program.cs) - Код задачи 4
+- [`CHART`](./TASK_4/CHART.png) - Блок-схема задачи 4
+---
+- [`TEXT`](./TASK_5/Task_data.md) - Текст задачи 5
+- [`CODE`](./TASK_5/Program.cs) - Код задачи 5
+- [`CHART`](./TASK_5/CHART.png) - Блок-схема задачи 5
+---
+- [`TEXT`](./TASK_6/Task_data.md) - Текст задачи 6
+- [`CODE`](./TASK_6/Program.cs) - Код задачи 6
+- [`CHART`](./TASK_6/CHART.png) - Блок-схема задачи 6
+---
