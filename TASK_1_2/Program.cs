@@ -1,4 +1,5 @@
-﻿double num1, num2, num3;
+﻿// Примем, что вводимые числа принадлежат множеству вещественных чисел, вариант с равенством отдельно не рассматриваем
+double num1, num2, num3;
 Console.WriteLine("Введите первое число");
 while (!double.TryParse(Console.ReadLine(), out num1))
     Console.WriteLine("Введите первое ЧИСЛО");
