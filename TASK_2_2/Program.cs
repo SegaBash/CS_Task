@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Введите целое трехзначное число");
+while (!int.TryParse(Console.ReadLine(), out int number) || number < 100 || number > 999)
+    Console.WriteLine("Неверный ввод. Введите целое трехзначное число.");
+
+
+
