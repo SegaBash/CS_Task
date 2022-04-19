@@ -30,3 +30,23 @@
 - [`CHART`](./TASK_1_6/CHART.png) - Блок-схема задачи 6
 ---
 # Семинар 2
+## Задача 2_1:
+- [`TEXT`](./TASK_2_1/Task_data.md) - Текст
+- [`CODE`](./TASK_2_1/Program.cs) - Код
+- [`CHART`](./TASK_2_1/CHART.png) - Блок-схема
+---
+## Задача 2_2:
+- [`TEXT`](./TASK_2_2/Task_data.md) - Текст задачи 2
+- [`CODE`](./TASK_2_2/Program.cs) - Код задачи 2
+- [`CHART`](./TASK_2_2/CHART.png) - Блок-схема задачи 2
+---
+## Задача 2_3:
+- [`TEXT`](./TASK_2_3/Task_data.md) - Текст задачи 3
+- [`CODE`](./TASK_2_3/Program.cs) - Код задачи 3
+- [`CHART`](./TASK_2_3/CHART.png) - Блок-схема задачи 3
+---
+## Задача 2_4:
+- [`TEXT`](./TASK_2_4/Task_data.md) - Текст задачи 4
+- [`CODE`](./TASK_2_4/Program.cs) - Код задачи 4
+- [`CHART`](./TASK_2_4/CHART.png) - Блок-схема задачи 4
+---
