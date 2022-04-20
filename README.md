@@ -50,3 +50,23 @@
 - [`CODE`](./TASK_2_4/Program.cs) - Код задачи 4
 - [`CHART`](./TASK_2_4/CHART.png) - Блок-схема задачи 4
 ---
+## Задача 2_5:
+- [`TEXT`](./TASK_2_5/Task_data.md) - Текст задачи 5
+- [`CODE`](./TASK_2_5/Program.cs) - Код задачи 5
+- [`CHART`](./TASK_2_5/CHART.png) - Блок-схема задачи 5
+---
+## Задача 2_6:
+- [`TEXT`](./TASK_2_6/Task_data.md) - Текст задачи 6
+- [`CODE`](./TASK_2_6/Program.cs) - Код задачи 6
+- [`CHART`](./TASK_2_6/CHART.png) - Блок-схема задачи 6
+---
+## Задача 2_7:
+- [`TEXT`](./TASK_2_7/Task_data.md) - Текст задачи 7
+- [`CODE`](./TASK_2_7/Program.cs) - Код задачи 7
+- [`CHART`](./TASK_2_7/CHART.png) - Блок-схема задачи 7
+---
+## Задача 2_8:
+- [`TEXT`](./TASK_2_8/Task_data.md) - Текст задачи 8
+- [`CODE`](./TASK_2_8/Program.cs) - Код задачи 8
+- [`CHART`](./TASK_2_8/CHART.png) - Блок-схема задачи 8
+---
