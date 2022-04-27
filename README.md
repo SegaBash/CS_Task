@@ -101,3 +101,9 @@
 - [`CODE`](./TASK_3_6/Program.cs) - Код задачи 6
 - [`CHART`](./TASK_3_6/CHART.png) - Блок-схема задачи 6
 ---
+# Семинар 4
+## Задача 4_1:
+- [`TEXT`](./TASK_4_1/Task_data.md) - Текст
+- [`CODE`](./TASK_4_1/Program.cs) - Код
+- [`CHART`](./TASK_4_1/CHART.png) - Блок-схема
+---
