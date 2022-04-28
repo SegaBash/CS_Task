@@ -107,3 +107,18 @@
 - [`CODE`](./TASK_4_1/Program.cs) - Код
 - [`CHART`](./TASK_4_1/CHART.png) - Блок-схема
 ---
+## Задача 4_2:
+- [`TEXT`](./TASK_4_2/Task_data.md) - Текст
+- [`CODE`](./TASK_4_2/Program.cs) - Код
+- [`CHART`](./TASK_4_2/CHART.png) - Блок-схема
+---
+## Задача 4_3:
+- [`TEXT`](./TASK_4_3/Task_data.md) - Текст
+- [`CODE`](./TASK_4_3/Program.cs) - Код
+- [`CHART`](./TASK_4_3/CHART.png) - Блок-схема
+---
+## Задача 4_4:
+- [`TEXT`](./TASK_4_4/Task_data.md) - Текст
+- [`CODE`](./TASK_4_4/Program.cs) - Код
+- [`CHART`](./TASK_4_4/CHART.png) - Блок-схема
+---
