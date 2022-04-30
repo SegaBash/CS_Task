@@ -1,6 +1,6 @@
 ﻿// Для ясности примем что нечетные позиции элементов в массиве это нечетные позиции массива считая с 1(0-ой элемент массива). (1,3,5....)
-int n = 5;
-var arr = new int[6];
+int n = 6;
+var arr = new int[n];
 
 FillRandomArray(arr, 10, 99);
 Console.Write("Array of " + n + " elements: ");

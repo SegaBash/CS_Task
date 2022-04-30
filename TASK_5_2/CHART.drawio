@@ -108,6 +108,9 @@
                 <mxCell id="99" value="end" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E6FFCC;strokeColor=#000000;fontSize=11;fontColor=#000000;rounded=0;labelBackgroundColor=none;endArrow=classic;" vertex="1" parent="1">
                     <mxGeometry x="600" y="490" width="80" height="40" as="geometry"/>
                 </mxCell>
+                <mxCell id="132" value="&lt;div style=&quot;font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="60" width="200" height="120" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>

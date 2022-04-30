@@ -1,5 +1,5 @@
 ﻿int n = 5;
-var arr = new int[5];
+var arr = new int[n];
 
 FillRandomArray(arr, 100, 999);
 Console.Write("Array of " + n + " elements: ");
