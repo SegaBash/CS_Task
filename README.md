@@ -116,9 +116,23 @@
 - [`TEXT`](./TASK_4_3/Task_data.md) - Текст
 - [`CODE`](./TASK_4_3/Program.cs) - Код
 - [`CHART`](./TASK_4_3/CHART.png) - Блок-схема
----
 ## Задача 4_4:
 - [`TEXT`](./TASK_4_4/Task_data.md) - Текст
 - [`CODE`](./TASK_4_4/Program.cs) - Код
 - [`CHART`](./TASK_4_4/CHART.png) - Блок-схема
 ---
+# Семинар 5
+## Задача 5_1:
+- [`TEXT`](./TASK_5_1/Task_data.md) - Текст
+- [`CODE`](./TASK_5_1/Program.cs) - Код
+- [`CHART`](./TASK_5_1/CHART.png) - Блок-схема
+---
+## Задача 5_2:
+- [`TEXT`](./TASK_5_2/Task_data.md) - Текст
+- [`CODE`](./TASK_5_2/Program.cs) - Код
+- [`CHART`](./TASK_5_2/CHART.png) - Блок-схема
+---
+## Задача 5_3:
+- [`TEXT`](./TASK_5_3/Task_data.md) - Текст
+- [`CODE`](./TASK_5_3/Program.cs) - Код
+- [`CHART`](./TASK_5_3/CHART.png) - Блок-схема
