@@ -1,5 +1,5 @@
 ﻿int[,] inputArray = new int[,] { { 1, 2, 3 }, { 4, 5, 6 }, { 1, 2, 3 }, { 1, 2, 3 } };
-int[] newArrayValue, newArrayCount;
+int[] dictionaryValue, dictionaryCount;
 Console.WriteLine("Входящий массив: ");
 for (int i = 0; i < inputArray.GetLength(0); i++)
 {
@@ -9,9 +9,9 @@ for (int i = 0; i < inputArray.GetLength(0); i++)
 }
 int[] workArray = Get1DimArray(inputArray);
 SortArray(workArray);
-GetValueAndCount(out newArrayValue, out newArrayCount, workArray);
+GetValueAndCount(out dictionaryValue, out dictionaryCount, workArray);
 Console.WriteLine("Словарь: ");
-PrintDictionary(newArrayValue, newArrayCount);
+PrintDictionary(dictionaryValue, dictionaryCount);
 
 int[] Get1DimArray(int[,] array2D)
 {
@@ -49,7 +49,7 @@ void GetValueAndCount(out int[] arrayValue, out int[] arrayCount, int[] array)
 {
     arrayValue = new int[array.Length];
     arrayCount = new int[array.Length];
-    var last = arrayValue[0] = array[0];
+    arrayValue[0] = array[0];
     arrayCount[0] = 1;
     int k = 0;
     for (int i = 1; i < array.Length; i++)
