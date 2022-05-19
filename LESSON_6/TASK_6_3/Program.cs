@@ -1,13 +1,13 @@
 ﻿int rows = 15;
-int maxNumber = GetPosition(rows - 1, (rows - 1) / 2);
+int maxNumber = GetValue(rows - 1, (rows - 1) / 2);
 int maxSize = (int)Math.Log(maxNumber, 10) + 1;
 string[,] pascal = new string[rows, rows];
 
-FillSpace(pascal);
+FillSpace(pascal,maxSize);
 FillValue(pascal);
 PrintPascal(pascal);
-
-int GetPosition(int n, int m)
+//формула для подсчета элемента треугольника
+int GetValue(int n, int m)
 {
     int res = 1;
     for (int i = n; i > 1; i--)
@@ -17,8 +17,8 @@ int GetPosition(int n, int m)
     }
     return res;
 }
-
-void FillSpace(string[,] array)
+// Заполняет массив(половина треугольника) пробелами
+void FillSpace(string[,] array, int maxSize)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -28,7 +28,7 @@ void FillSpace(string[,] array)
         }
     }
 }
-
+// Заполняет массив(половина треугольника) значениями
 void FillValue(string[,] array)
 {
     int len = array.GetLength(0);
@@ -36,7 +36,7 @@ void FillValue(string[,] array)
     {
         for (int j = len - 1 - i % 2; j >= len - 1 - i; j -= 2)
         {
-            string strValue = GetPosition(i, (i + j - len + 1) / 2).ToString();
+            string strValue = GetValue(i, (i + j - len + 1) / 2).ToString();
             // Условие заполнения треугольника только нечетными значениями
             //if(GetPosition(i, (i + j - len + 1) / 2) % 2 == 0) strValue = new string(' ', maxSize); 
             int offset = (maxSize - strValue.Length) / 2;
@@ -44,7 +44,7 @@ void FillValue(string[,] array)
         }
     }
 }
-
+// Печатает полный(обе половины) треугольник
 void PrintPascal(string[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
