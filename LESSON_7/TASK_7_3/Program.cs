@@ -13,8 +13,8 @@ int[,,] CreateRandomMAtrix(int dim1, int dim2, int dim3, int limit)
             {
                 while (true)
                 {
-                    if (!originalValue.Contains(matrix[i, j, k])) { originalValue.Add(matrix[i, j, k]); break; }
                     matrix[i, j, k] = new Random().Next(0, limit);
+                    if (!originalValue.Contains(matrix[i, j, k])) { originalValue.Add(matrix[i, j, k]); break; }
                 }
             }
         }

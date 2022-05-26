@@ -2,7 +2,7 @@
 Console.WriteLine(" Старая матрица:\n");
 PrintMatrix(matrix);
 int[,] trimmedMatrix = CreateTrimmedMAtrix(matrix, GetMinIndexLists(matrix)[0], GetMinIndexLists(matrix)[1]);
-if ((trimmedMatrix.GetLength(0) + trimmedMatrix.GetLength(1)) == 0) {Console.WriteLine("\n Новая матрица погибла"); Environment.Exit(0);}
+if (trimmedMatrix.GetLength(0) == 0) {Console.WriteLine("\n Новая матрица погибла"); Environment.Exit(0);}
 Console.WriteLine("\n Новая матрица:\n");
 PrintMatrix(trimmedMatrix);
 
@@ -66,9 +66,8 @@ int[,] CreateTrimmedMAtrix(int[,] arr, List<int> rows, List<int> columns)
 {
     int n = 0;
     int m = 0;
-    int[,] matrix;
-    if (arr.GetLength(0) == rows.Count || arr.GetLength(0) == columns.Count) return matrix = new int[0, 0];
-    matrix = new int[arr.GetLength(0) - rows.Count, arr.GetLength(1) - columns.Count];
+    if (arr.GetLength(0) == rows.Count || arr.GetLength(0) == columns.Count) return new int[0, 0];
+    int[,] matrix = new int[arr.GetLength(0) - rows.Count, arr.GetLength(1) - columns.Count];
     for (int i = 0; i < arr.GetLength(0); i++)
     {
         if (rows.Contains(i)) continue;
