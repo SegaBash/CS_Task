@@ -1,3 +1,19 @@
+# Семинар 7
+## Задача 7_1:
+- [`TEXT`](./LESSON_7/TASK_7_1/Task_data.md) - Текст
+- [`CODE`](./LESSON_7/TASK_7_1/Program.cs) - Код
+- [`CHART`](./LESSON_7/TASK_7_1/CHART.png) - Блок-схема
+---
+## Задача 7_2:
+- [`TEXT`](./LESSON_7/TASK_7_2/Task_data.md) - Текст
+- [`CODE`](./LESSON_7/TASK_7_2/Program.cs) - Код
+- [`CHART`](./LESSON_7/TASK_7_2/CHART.png) - Блок-схема
+---
+## Задача 7_3:
+- [`TEXT`](./LESSON_7/TASK_7_3/Task_data.md) - Текст
+- [`CODE`](./LESSON_7/TASK_7_3/Program.cs) - Код
+- [`CHART`](./LESSON_7/TASK_7_3/CHART.png) - Блок-схема
+---
 # Семинар 6
 ## Задача 6_1:
 - [`TEXT`](./LESSON_6/TASK_6_1/Task_data.md) - Текст
