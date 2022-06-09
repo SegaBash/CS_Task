@@ -1,7 +1,7 @@
 ﻿int[,] matrix = CreateRandomMAtrix(4, 4, 10);
 Console.WriteLine(" Сгенерированная матрица:\n");
 PrintMatrix(matrix);
-int[,] swappedMatrix = CreateSwappedMatrix(matrix);
+int[,] swappedMatrix = SwapMatrix(matrix);
 if (swappedMatrix.GetLength(0) != swappedMatrix.GetLength(1)) { Console.WriteLine("\n Ничего не получится!"); Environment.Exit(0); }
 Console.WriteLine("\n Измененная матрица:\n");
 PrintMatrix(swappedMatrix);
@@ -34,7 +34,7 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-int[,] CreateSwappedMatrix(int[,] arr)
+int[,] SwapMatrix(int[,] arr)
 {
     int rows = arr.GetLength(0);
     int columns = arr.GetLength(1);

@@ -1,7 +1,7 @@
 ﻿int[,] matrix = CreateRandomMAtrix(5, 3, 10);
 Console.WriteLine(" Сгенерированная матрица:\n");
 PrintMatrix(matrix);
-Console.WriteLine($"\n Наименьшая сумма элементов - {FindMinSumRow(matrix)} строка ");
+Console.WriteLine($"\n Наименьшая сумма элементов - {FindMinSumRowNumber(matrix)} строка ");
 
 
 int[,] CreateRandomMAtrix(int rows, int columns, int limit)
@@ -31,7 +31,7 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-int FindMinSumRow(int[,] arr)
+int FindMinSumRowNumber(int[,] arr)
 {
     int minSumRow = 0;
     int minSumRowNumber = 0;

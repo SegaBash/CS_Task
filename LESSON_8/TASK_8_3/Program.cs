@@ -1,7 +1,7 @@
 ﻿int[,] matrix = CreateRandomMAtrix(4, 4, 10);
 Console.WriteLine(" Сгенерированная матрица:\n");
 PrintMatrix(matrix);
-int[,] sortedMatrix = CreateSortedMatrix(matrix);
+int[,] sortedMatrix = SortMatrix(matrix);
 if (sortedMatrix.GetLength(0) != sortedMatrix.GetLength(1)) { Console.WriteLine("\n Ничего не получится!"); Environment.Exit(0); }
 Console.WriteLine("\n Измененная матрица:\n");
 PrintMatrix(sortedMatrix);
@@ -34,7 +34,7 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-int[,] CreateSortedMatrix(int[,] arr)
+int[,] SortMatrix(int[,] arr)
 {
     int rows = arr.GetLength(0);
     int columns = arr.GetLength(1);
