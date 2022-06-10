@@ -1,3 +1,9 @@
+# Семинар 9
+## Задача 9_1:
+- [`TEXT`](./LESSON_9/TASK_9_1/Task_data.md) - Текст
+- [`CODE`](./LESSON_9/TASK_9_1/Program.cs) - Код
+- [`CHART`](./LESSON_9/TASK_9_1/CHART.png) - Блок-схема
+---
 # Семинар 8
 ## Задача 8_1:
 - [`TEXT`](./LESSON_8/TASK_8_1/Task_data.md) - Текст
